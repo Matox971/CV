@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <form class="" action="index.html" method="post">
+    <label for="">Nom (entre 4 et 8 caractères)</label>
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+    <input type="button" class="favorite styled" value="add to favorites">
+    <form>
+      <div>
+        <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+        <label for="subscribeNews">Souhaitez-vous vous abonner à la newsletter ?</label>
+      </div>
+      <div>
+        <button type="submit">S'abonner</button>
+      </div>
+    </form>
+
+
+  </form>
+
+  <p>Choose your monster's colors:</p>
+
+  <div>
+    <input type="color" id="head" name="head" value="#e66465">
+    <label for="head">Head</label>
+  </div>
+
+  <div>
+    <input type="color" id="body" name="body" value="#f6b73c">
+    <label for="body">Body</label>
+  </div>
+  <label for="start">Start date:</label>
+
+  <input type="date" id="start" name="trip-start" value="2018-07-22" min="2000-01-01" max="2020-12-31">
+
+  <label for="email">Enter your globex.com email:</label>
+
+  <input type="email" id="email" pattern=".+@globex.com" size="30" required>
+
+
+
+  <label for="avatar">Choose a profile picture:</label>
+
+  <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+  <div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+  </div>
+
+  <div>
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password" minlength="8" required>
+  </div>
+
+  <input type="submit" value="Sign in">
+
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td>Three</td>
+    <td>Four</td>
+
+  </tr>
+</table>
+</body>
+
+</html>
